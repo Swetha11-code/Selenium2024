@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Automation.seleniumdev_Rameshsoft.Hike">
+      <methods>
+      <include name="hike2"></include>
+      <include name="hike4"></include>
+      </methods>
+      </class>
+      <class name="Automation.seleniumcore_Rameshsoft.Job1">
+      <methods>
+      <include name="job2"></include>
+      </methods>
+      </class>
+      <class name="Automation.seleniumdev_Rameshsoft.practice1"></class>
+      <class name="Automation.seleniumcore_Rameshsoft.Hardwork1">
+      <methods>
+      <include name="hardwork2"></include>
+      </methods>
+      </class>
+       <class name="Automation.seleniumdev_Rameshsoft.Sal"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
