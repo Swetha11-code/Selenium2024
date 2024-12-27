@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\vinod\AppData\Local\Temp\testng-eclipse-1370262712\testng-customsuite.xml</span>
+                    <span>C:\Users\vinod\AppData\Local\Temp\testng-eclipse-1918216512\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rameshsoft.automation.testngprog.ExamTestNg_Prog" hash-for-method="hardwork">hardwork</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Automation.seleniumcore_Rameshsoft.Job1" hash-for-method="job1">job1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rameshsoft.automation.testngprog.ExamTestNg_Prog" hash-for-method="job">job</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Automation.seleniumcore_Rameshsoft.Job1" hash-for-method="job2">job2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.rameshsoft.automation.testngprog.ExamTestNg_Prog</span>
+              <span class="class-name">Automation.seleniumcore_Rameshsoft.Job1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="hardwork">
-                  </a> <!-- hardwork -->
-                  <span class="method-name">hardwork</span>
+                  <a name="job1">
+                  </a> <!-- job1 -->
+                  <span class="method-name">job1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="job">
-                  </a> <!-- job -->
-                  <span class="method-name">job</span>
+                  <a name="job2">
+                  </a> <!-- job2 -->
+                  <span class="method-name">job2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vinod\AppData\Local\Temp\testng-eclipse-1370262712\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vinod\AppData\Local\Temp\testng-eclipse-1918216512\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.rameshsoft.automation.testngprog.ExamTestNg_Prog&quot;/&gt;
+      &lt;class name=&quot;Automation.seleniumcore_Rameshsoft.Job1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -180,6 +180,34 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">e2e</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">job1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">job2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">rt</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">job1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">st</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">job2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -198,18 +226,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hardwork')
-data.setCell(0, 2, 'com.rameshsoft.automation.testngprog.ExamTestNg_Prog')
-data.setCell(0, 3, 9);
+data.setCell(0, 1, 'job1')
+data.setCell(0, 2, 'Automation.seleniumcore_Rameshsoft.Job1')
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'job')
-data.setCell(1, 2, 'com.rameshsoft.automation.testngprog.ExamTestNg_Prog')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'job2')
+data.setCell(1, 2, 'Automation.seleniumcore_Rameshsoft.Job1')
+data.setCell(1, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 ms</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,14 +263,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.rameshsoft.automation.testngprog.ExamTestNg_Prog</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Automation.seleniumcore_Rameshsoft.Job1</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">hardwork</span>
+                <span class="method-name">job1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">job</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">job2</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

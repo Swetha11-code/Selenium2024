@@ -9,6 +9,6 @@ public static void main(String[] args) {
 	System.out.println("My java prog");
 	AddProg addition=new AddProg();
 	addition.java();
-	
+	System.out.println("My new Program");
 }
 }

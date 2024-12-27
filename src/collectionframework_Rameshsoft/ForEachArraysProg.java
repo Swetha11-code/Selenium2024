@@ -3,7 +3,7 @@ package collectionframework_Rameshsoft;
 public class ForEachArraysProg {
 
 	public static void main(String[] args) {
-		String[] str = {"hardwork","job","practice","work","java","selenium"};
+		String[] str = {"hardwork","job","practice","work","java","selenium","testing","automation"};
 		
 	/*	for(int i=0; i<str.length; i++)
 		{

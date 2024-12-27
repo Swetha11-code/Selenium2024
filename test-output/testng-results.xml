@@ -2,20 +2,30 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2024-12-24T09:31:09Z" finished-at="2024-12-24T09:31:09Z">
+  <suite name="Default suite" duration-ms="38" started-at="2024-12-27T07:47:35Z" finished-at="2024-12-27T07:47:35Z">
     <groups>
+      <group name="st">
+        <method signature="Job1.job2()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job2" class="Automation.seleniumcore_Rameshsoft.Job1"/>
+      </group> <!-- st -->
+      <group name="rt">
+        <method signature="Job1.job1()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job1" class="Automation.seleniumcore_Rameshsoft.Job1"/>
+      </group> <!-- rt -->
+      <group name="e2e">
+        <method signature="Job1.job1()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job1" class="Automation.seleniumcore_Rameshsoft.Job1"/>
+        <method signature="Job1.job2()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job2" class="Automation.seleniumcore_Rameshsoft.Job1"/>
+      </group> <!-- e2e -->
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2024-12-24T09:31:09Z" finished-at="2024-12-24T09:31:09Z">
-      <class name="com.rameshsoft.automation.testngprog.ExamTestNg_Prog">
-        <test-method status="PASS" signature="hardwork()[pri:0, instance:com.rameshsoft.automation.testngprog.ExamTestNg_Prog@7946e1f4]" name="hardwork" duration-ms="9" started-at="2024-12-24T15:01:09Z" finished-at="2024-12-24T15:01:09Z">
+    <test name="Default test" duration-ms="38" started-at="2024-12-27T07:47:35Z" finished-at="2024-12-27T07:47:35Z">
+      <class name="Automation.seleniumcore_Rameshsoft.Job1">
+        <test-method status="PASS" signature="job1()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job1" duration-ms="13" started-at="2024-12-27T13:17:35Z" finished-at="2024-12-27T13:17:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hardwork -->
-        <test-method status="PASS" signature="job()[pri:0, instance:com.rameshsoft.automation.testngprog.ExamTestNg_Prog@7946e1f4]" name="job" duration-ms="1" started-at="2024-12-24T15:01:09Z" finished-at="2024-12-24T15:01:09Z">
+        </test-method> <!-- job1 -->
+        <test-method status="PASS" signature="job2()[pri:0, instance:Automation.seleniumcore_Rameshsoft.Job1@6ea12c19]" name="job2" duration-ms="2" started-at="2024-12-27T13:17:35Z" finished-at="2024-12-27T13:17:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- job -->
-      </class> <!-- com.rameshsoft.automation.testngprog.ExamTestNg_Prog -->
+        </test-method> <!-- job2 -->
+      </class> <!-- Automation.seleniumcore_Rameshsoft.Job1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
